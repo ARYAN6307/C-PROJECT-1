@@ -1,0 +1,25 @@
+FUNCTIONS USED:-
+
+The gotoxy() function:- 
+places the cursor at the desired location on the screen.
+ This means it is possible to change the cursor location on the screen using the gotoxy() function.
+ It is basically used to print text wherever the cursor is moved.
+
+nosound() function:-
+ which simply silent the system. 
+The sound() is very useful as it can create very nice music with the help of programming and our user can enjoy music during working in out the program. 
+These two functions are from file dos. h, which should be included in the program.
+
+Delay in C: 
+delay function is used to suspend execution of a program for a particular time.
+ Declaration: void delay(unsigned int); 
+Here unsigned int is the number of milliseconds (remember 1 second = 1000 milliseconds). 
+To use delay function in your program you should include the "dos.
+
+Function textcolor :-
+is used to change the color of drawing text in C programsTurbo C compiler only.
+ Declaration: void textcolor(int color);
+
+_setcursortype:-
+Approach: The idea is to use the setcursortype() function to change the cursor style on the output screen. 
+This function takes cursor-type as an argument and is declared under the conio. h header file.
